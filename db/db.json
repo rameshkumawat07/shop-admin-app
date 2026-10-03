@@ -1,0 +1,229 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Olivia Martin",
+      "email": "admin@stockroom.io",
+      "password": "stockroom24",
+      "role": "Administrator"
+    }
+  ],
+  "inventory": [
+    {
+      "id": "1",
+      "name": "Studio Wireless Headphones",
+      "sku": "AUD-2048",
+      "categoryId": "1",
+      "vendorId": "1",
+      "quantity": 8,
+      "purchasePrice": 89,
+      "sellingPrice": 149,
+      "description": "Over-ear wireless headphones with active noise cancellation.",
+      "status": "Low stock"
+    },
+    {
+      "id": "2",
+      "name": "Everyday Canvas Tote",
+      "sku": "BAG-1012",
+      "categoryId": "2",
+      "vendorId": "2",
+      "quantity": 124,
+      "purchasePrice": 12,
+      "sellingPrice": 32,
+      "description": "Heavyweight cotton canvas tote in natural.",
+      "status": "Active"
+    },
+    {
+      "id": "3",
+      "name": "Insulated Travel Bottle",
+      "sku": "HME-3018",
+      "categoryId": "3",
+      "vendorId": "3",
+      "quantity": 63,
+      "purchasePrice": 16,
+      "sellingPrice": 39,
+      "description": "Double-wall stainless steel bottle, 500 ml.",
+      "status": "Active"
+    },
+    {
+      "id": "4",
+      "name": "Compact Desk Lamp",
+      "sku": "HME-3031",
+      "categoryId": "3",
+      "vendorId": "1",
+      "quantity": 0,
+      "purchasePrice": 24,
+      "sellingPrice": 58,
+      "description": "Minimal LED task lamp with adjustable arm.",
+      "status": "Inactive"
+    },
+    {
+      "id": "5",
+      "name": "Everyday Running Cap",
+      "sku": "APP-2092",
+      "categoryId": "4",
+      "vendorId": "2",
+      "quantity": 28,
+      "purchasePrice": 14,
+      "sellingPrice": 36,
+      "description": "Lightweight recycled nylon running cap.",
+      "status": "Active"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "orderNumber": "ORD-2024",
+      "vendorId": "1",
+      "date": "2026-10-03",
+      "items": 3,
+      "total": 220,
+      "status": "Processing"
+    },
+    {
+      "id": "2",
+      "orderNumber": "ORD-2023",
+      "vendorId": "2",
+      "date": "2026-10-02",
+      "items": 1,
+      "total": 149,
+      "status": "Pending"
+    },
+    {
+      "id": "3",
+      "orderNumber": "ORD-2022",
+      "vendorId": "3",
+      "date": "2026-10-01",
+      "items": 5,
+      "total": 376,
+      "status": "Shipped"
+    },
+    {
+      "id": "4",
+      "orderNumber": "ORD-2021",
+      "vendorId": "1",
+      "date": "2026-09-29",
+      "items": 2,
+      "total": 71,
+      "status": "Delivered"
+    },
+    {
+      "customer": "Test",
+      "date": "2026-10-03",
+      "items": 100,
+      "total": 12,
+      "status": "Delivered",
+      "orderNumber": "ORD-564979",
+      "id": "BzWtRzYXvvc"
+    }
+  ],
+  "sales": [
+    {
+      "id": "1",
+      "saleNumber": "SAL-1048",
+      "productId": "2",
+      "productName": "Everyday Canvas Tote",
+      "quantity": 2,
+      "unitPrice": 32,
+      "total": 64,
+      "date": "2026-10-03",
+      "customer": "Maya Chen"
+    },
+    {
+      "id": "2",
+      "saleNumber": "SAL-1047",
+      "productId": "3",
+      "productName": "Insulated Travel Bottle",
+      "quantity": 1,
+      "unitPrice": 39,
+      "total": 39,
+      "date": "2026-10-02",
+      "customer": "Jordan Lee"
+    },
+    {
+      "id": "3",
+      "saleNumber": "SAL-1046",
+      "productId": "5",
+      "productName": "Everyday Running Cap",
+      "quantity": 1,
+      "unitPrice": 36,
+      "total": 36,
+      "date": "2026-10-01",
+      "customer": "Amara Okafor"
+    }
+  ],
+  "vendors": [
+    {
+      "id": "1",
+      "name": "Northstar Audio Co.",
+      "contactPerson": "Ethan Brooks",
+      "phone": "+1 415 555 0182",
+      "email": "hello@northstaraudio.com",
+      "address": "San Francisco, CA",
+      "gstNumber": "29AABCU9603R1ZM"
+    },
+    {
+      "id": "2",
+      "name": "Field & Form Supply",
+      "contactPerson": "Priya Shah",
+      "phone": "+1 212 555 0114",
+      "email": "orders@fieldandform.co",
+      "address": "Brooklyn, NY",
+      "gstNumber": "27AAACF1234A1Z5"
+    },
+    {
+      "id": "3",
+      "name": "Goodwell Goods",
+      "contactPerson": "Marcus Reed",
+      "phone": "+1 312 555 0145",
+      "email": "supply@goodwellgoods.com",
+      "address": "Chicago, IL",
+      "gstNumber": "19AABCG5678B1Z2"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Saree",
+      "description": "Saree",
+      "status": "Active"
+    },
+    {
+      "id": "2",
+      "name": "Suits",
+      "description": "Suits",
+      "status": "Active"
+    },
+    {
+      "id": "3",
+      "name": "Duptaa",
+      "description": "Duptaa",
+      "status": "Active"
+    },
+    {
+      "id": "4",
+      "name": "Chunni",
+      "description": "Chunni",
+      "status": "Active"
+    },
+    {
+      "name": "Peticoat",
+      "description": "Peticoat",
+      "status": "Active",
+      "id": "wuIZJh2Ye6M"
+    },
+    {
+      "name": "Blouse",
+      "description": "Blouse",
+      "status": "Active",
+      "id": "kGS7NezUwVM"
+    },
+    {
+      "name": "Mix",
+      "description": "Mix",
+      "status": "Active",
+      "id": "sqdZ4eY9KpU"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
