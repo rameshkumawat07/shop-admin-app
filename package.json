@@ -1,4 +1,5 @@
 {
+  "homepage": "https://rameshkumawat07.github.io/shop-admin-app",
   "name": "shop-admin-app",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +10,9 @@
     "dev:all": "concurrently \"npm:server\" \"npm:dev\"",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prdeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
